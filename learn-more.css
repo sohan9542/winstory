@@ -1,0 +1,16 @@
+.grid_col-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.resourse_footer{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 576px) {
+
+    .grid_col-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+}

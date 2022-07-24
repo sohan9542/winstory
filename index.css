@@ -1,0 +1,45 @@
+.header_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    height: 50vh;
+}
+.header_grid h1{
+    font-size: 36px;
+}
+.what__is__windows{
+    width: 100%;
+    background: rgba(1, 120, 212, 0.17);
+    height: 40vh;
+    margin: 40px 0;
+}
+.what__is__windows .container h1{
+    font-size: 36px;
+}
+.windos_peragraph{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hero__history{
+    margin: 40px 0;
+}
+.large_font{
+    font-size: 20px;
+    font-weight: 600;
+}
+.margin_top_hero{
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+    .header_grid{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        height: 100%;
+    }
+    .hero__history{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,18 @@
+.grid_col_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.resource_image{
+    width:60%;
+}
+.mt-40{
+    margin-top: 50px;
+}
+.footer_resources{
+    margin-top: 110px;
+}
+.contact_hero{
+    background: rgba(1, 120, 212, 0.17);
+    height: 20vh;
+}

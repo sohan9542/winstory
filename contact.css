@@ -1,0 +1,25 @@
+.contact_hero{
+    background: rgba(1, 120, 212, 0.17);
+    height: 20vh;
+}
+.contact__input{
+    margin-top: 5px;
+    background: none;
+    border: 1px solid #B8B8B8;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    padding: 10px ;
+}
+.contact__button{
+    padding: 10px 20px;
+    color: white;
+    background: rgba(1, 120, 212, 0.69);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer_contact{
+    margin-top: 112px;
+}
